@@ -1,5 +1,6 @@
 from turtle import *
 
+
 t = Turtle()
 
 #plano cartesiano
@@ -8,12 +9,14 @@ t.pu()
 t.goto(0, -500)
 t.pd()
 t.lt(90)
-t.fd(1000)
+t.fd(900)
+t.stamp()
 t.pu()
 t.goto(-500, 0)
 t.pd()
 t.rt(90)
-t.fd(1000)
+t.fd(950)
+t.stamp()
 
 
 #1
